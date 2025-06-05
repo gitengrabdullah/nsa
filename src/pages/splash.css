@@ -1,0 +1,56 @@
+body {
+    margin-top: 3rem;
+}
+.container h1{
+    display:flex;
+    color: rgb(51, 31, 2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    width: 80vw;
+    text-align: center;
+}
+.logo{
+    width: 80%;
+    height: 20vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    width: 10re,;
+    height: 100%;
+    border-radius: 100%;
+}
+form label{
+    font-size: 1.2rem !important;
+    color: blue;
+    margin-bottom: 1rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    
+}
+.form input {
+    border:  3px solid  rgb(51, 31, 2);
+    background-color: white;
+    height: 1rem;
+    padding: 0.5rem;
+}
+.rounded{
+    background-color:  rgb(51, 31, 2);
+    color: rgb(51, 31, 2) ;
+    font-size: 1rem;
+    border-radius: 1rem;
+}
+
+.rounded2 {
+    font-size: 1rem;
+    background-color:  rgb(51, 31, 2);
+    color: white;
+    border-radius: 1rem;
+}
+button {
+    margin-top: 1rem;
+}
