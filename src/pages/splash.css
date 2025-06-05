@@ -5,29 +5,41 @@ body {
     display:flex;
     color: rgb(51, 31, 2);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
-    width: 80vw;
+    /* font-size: 1.5rem; */
+    width:100vw;
     text-align: center;
 }
 .logo{
-    width: 80%;
-    height: 20vh;
+    /* width: 80vw; */
+    /* height: 20vh; */
     overflow: hidden;
     display: flex;
     justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 .logo img{
-    width: 10re,;
+    padding: 0;
+    margin: 0;
+    width: 10rem;
     height: 100%;
     border-radius: 100%;
+    margin-bottom: 3rem;
 }
 form label{
     font-size: 1.2rem !important;
-    color: blue;
+    color: red;
     margin-bottom: 1rem;
+}
+form{
+    display: flex;
+    justify-content: center;
+    width: 100% !important;
 }
 .form{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     width: 80%;
     
@@ -35,14 +47,15 @@ form label{
 .form input {
     border:  3px solid  rgb(51, 31, 2);
     background-color: white;
-    height: 1rem;
+    height: 2rem;
     padding: 0.5rem;
+    width: 70%;
 }
 .rounded{
     background-color:  rgb(51, 31, 2);
     color: rgb(51, 31, 2) ;
     font-size: 1rem;
-    border-radius: 1rem;
+    border-radius: 0.7rem;
 }
 
 .rounded2 {
@@ -53,4 +66,5 @@ form label{
 }
 button {
     margin-top: 1rem;
+    width: 80%;
 }
